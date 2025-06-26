@@ -15,7 +15,7 @@ The automated section is:
 
 ### If you woud like to provide suggestion for my practice and learning, I would appreciate it.
 
-### If you like to use this project, please feel free:
+### If you would like to use this project, please feel free:
 
 1- Open the command terminal and change to path to wherever you like to clone the repo:
 
