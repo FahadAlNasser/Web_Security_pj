@@ -1,4 +1,4 @@
-<p align="center"><strong> Web Security File/Url Scanner using VirusTotal</strong></p>
+<p align="center"><strong> Web Security File/URL Scanner using VirusTotal</strong></p>
 
 ### Information
 
