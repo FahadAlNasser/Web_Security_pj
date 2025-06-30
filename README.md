@@ -24,3 +24,7 @@ cd path
 2- Clone the repo:
 
 git clone https://github.com/FahadAlNasser/file_url_scan.git
+
+### Disclaimer
+
+I am learning, experimenting, and practicing with coding. I am exploring different tools, techniques, and programming languages to enhance my skills. This is code is experimental and intended for educational purposes only.
