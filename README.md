@@ -1,4 +1,4 @@
-<p align="center"><strong> Partially Automated File/URL Scanner</strong></p>
+<p align="center"><strong> Partially Automated File/URL Scanner - Web Security</strong></p>
 
 ### You may ask, which is the automated part?
 The automated section is:
