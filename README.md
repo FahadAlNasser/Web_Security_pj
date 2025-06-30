@@ -5,8 +5,11 @@
 This is another separate branch from the main branch, reimplemented to rely on the Flask package. This project is not automated. If you want to automate it, you will need to modify the code to:
 
 1- Allowing to run in the background continously
+
 2- Allowing it to scan URLs or files automatically
+
 3- Allowing to store the scan results in a specific folder or database
+
 4- Enabling it to optionally take actions. For example, blocking malicious URLs or preventing file downloads
 
 With these aspects, the project would fucntion like an antivirus system. 
