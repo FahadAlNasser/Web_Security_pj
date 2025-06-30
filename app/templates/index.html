@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>This is Web Security Scanner</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        <div class="holder">
+            <h1>Web Scanner</h1>
+            <form method="POST" enctype="multipart/form-data">
+                <label>This is URL Scanner</label>
+                <input type="text" name="url" placeholder="https://example.com">
+                <button type="submit">Scan URL</button>
+            </form>
+            <form method="POST" enctype="multipart/form-data">
+                <label>Scan File</label>
+                <input type="file" name="file">
+                <button type="submit">Scan file</button>
+            </form>
+            {% if url_conclusion %}
+            <div class="outcome">
+                <h2>The Outcome of this URL Scan</h2>
+                <p><strong>URL:</strong> {{ url_conclusion.url }}</p>
+                <p><strong>Status:</strong> {{ url_conclusion.status }}</p>
+                <p><strong>Malicious:</strong> {{ url_conclusion.malicious}}</p>
+                <p><strong>Suspicious:</strong> {{ url_conclusion.suspicious }}</p>
+                <p>{{ url_conclusion.details }}</p>
+            </div>
+            {% endif %}
+            {% if file_conclusion %}
+            <div class="outcome">
+                <h2>The File Scan Result:</h2>
+                <p><strong>File:</strong> {{ file_conclusion.file }}</p>
+                <p><strong>SHA256:</strong> {{ file_conclusion.sha256 }}</p>
+                <p><strong>Status:</strong> {{ file_conclusion.status }}</p>
+                <p><strong>Malicious:</strong> {{ file_conclusion.malicious }}</p>
+                <p><strong>Suspicious:</strong> {{ file_conclusion.suspicious }}</p>
+                <p>{{ file_conclusion.details }}</p>
+            </div>
+            {% endif %}
+        </div>
+    </body>
+</html>
